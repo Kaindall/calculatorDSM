@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <main>
+        <h1 id="title">Calculadora de Médias</h1>
+        <section id="data-container">
+            <form id="about-container">
+                <label class="about-info" for="course">
+                    <input class="about-input" id="course" placeholder="Curso" required>
+                </label>
+                <label class="about-info" for="student-name">
+                    <input class="about-input" id="student-name" placeholder="Fulano da Silva" required>
+                </label>
+            </form>
+        </section>
+        <section>
+            <form id="grade-form">
+                <div class="bimester">
+                    <label class="grade-info" for="exam1">P1
+                        <input class="grade-input" id="exam1" type="number" min="0" max="10" placeholder="Prova 1" required>
+                    </label>
+                    
+                    <label class="grade-info" for="task1">T1
+                        <input class="grade-input" id="task1" type="number" min="0" max="10" placeholder="Atividade 1" required>
+                    </label>
+                </div>
+                <div class="bimester">
+                    <label class="grade-info" for="exam2">P2
+                        <input class="grade-input" id="exam2" type="number" min="0" max="10" placeholder="Prova 2" required>
+                    </label>
+                    
+                    <label class="grade-info" for="task2">T2
+                        <input class="grade-input" id="task2" type="number" min="0" max="10" placeholder="Atividade 2" required>
+                    </label>
+                </div>
+                <button id="btn-submit" type="submit">Submit</button>
+            </form>
+        </section>
+        <hr>
+        <section id="result-container">
+            <h2>Exemplo de Resultado</h2>
+        </section>
+    </main>
+</body>
+</html>
