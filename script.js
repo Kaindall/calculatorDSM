@@ -18,9 +18,9 @@ document.addEventListener("DOMContentLoaded", function() {
 
         //Comparação para aprovado ou não
         if (average >= 6.0) {
-            resultContainer.innerText = `Parabéns! Você passou com média ${average}.`;
+            resultContainer.innerText = `Parabéns! Você passou com média ${average}. \u{1F44D}`;
         } else {
-            resultContainer.innerText = `Infelizmente, sua média foi ${average}. Estude mais para a próxima!`;
+            resultContainer.innerText = `Infelizmente, sua média foi ${average}. Estude mais para a próxima! \u{1F44E} `;
         }
     });
 });
