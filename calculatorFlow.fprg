@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value="P1"/>
+        <attribute name="authors" value="User"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-10-05 04:57:05 "/>
+        <attribute name="created" value="VXNlcjtERVNLVE9QLVJDMzlQSFU7MjAyMy0xMC0wNTsiMDQ6NDY6MDcgIjsyNjgx"/>
+        <attribute name="edited" value="VXNlcjtERVNLVE9QLVJDMzlQSFU7MjAyMy0xMC0wNTsiMDQ6NTc6MDUgIjszOzI3OTE="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <call expression="Interface (HTML, CSS)"/>
+            <breakpoint expression="Inser&#231;&#227;o" always="True"/>
+            <input variable="Notas"/>
+            <call expression="Calcular (M&#233;dia)"/>
+            <if expression="">
+                <then>
+                    <assign variable="Passou" expression="M&#233;dia &gt;= 7"/>
+                </then>
+                <else>
+                    <assign variable="Reprovou" expression="M&#233;dia &lt; 7"/>
+                </else>
+            </if>
+            <output expression="Resultado" newline="True"/>
+            <call expression="Atualizar (Interface)"/>
+        </body>
+    </function>
+</flowgorithm>
